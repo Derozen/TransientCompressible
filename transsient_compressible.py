@@ -166,7 +166,7 @@ mesh.surfaces_list = all_walls
 mesh.options.edges = True
 mesh.display()
 graphics.views.restore_view(view_name="isometric")
-graphics.picture.save_picture(file_name="transient_compressible_2.png")
+graphics.picture.save_picture(file_name="images/transient_compressible_2.png")
 
 
 #Solver Configuration
@@ -291,7 +291,7 @@ pressure_contour.surfaces_list = ["symmetry"]
 pressure_contour.display()
 
 graphics.views.restore_view(view_name="front")
-graphics.picture.save_picture(file_name="transient_compressible_3.png")
+graphics.picture.save_picture(file_name="images/transient_compressible_3.png")
 
 # Create velocity contour
 velocity_contour = Contour(solver, new_instance_name="velocity_contour")
@@ -301,7 +301,7 @@ velocity_contour.surfaces_list = ["symmetry"]
 velocity_contour.display()
 
 graphics.views.restore_view(view_name="front")
-graphics.picture.save_picture(file_name="transient_compressible_4.jpg")
+graphics.picture.save_picture(file_name="images/transient_compressible_4.jpg")
 
 # save the case and data file
 solver.settings.file.write_case_data(file_name="steady_state_nozzle")
