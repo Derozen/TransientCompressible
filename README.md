@@ -13,6 +13,9 @@ La tuyère possède une hauteur d’entrée de 0,2 mètre et un profil lisse, si
 ## Pyfluent guide
 
 # Creez un environnement Virtuel env ou conda 
+```bash
+python -m venv fluentenv
+```
 
 # Installez Pyfluent
 
